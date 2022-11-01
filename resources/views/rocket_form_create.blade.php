@@ -14,22 +14,22 @@
 
         <div class="form-group mb-2">
             <label for="initial_spreed">Initial Spreed:</label>
-            <input type="number" class="form-control" name="initial_spreed" id="initial_spreed">
+            <input type="text" class="form-control" name="initial_spreed" id="initial_spreed">
         </div>
 
         <div class="form-group mb-2">
             <label for="last_spreed">Last Spreed:</label>
-            <input type="number" class="form-control" name="last_spreed" id="last_spreed">
+            <input type="text" class="form-control" name="last_spreed" id="last_spreed">
         </div>
 
         <div class="form-group mb-2">
             <label for="acceleration">Acceleration:</label>
-            <input type="number" class="form-control" name="acceleration" id="acceleration">
+            <input type="text" class="form-control" name="acceleration" id="acceleration">
         </div>
 
         <div class="form-group mb-2">
             <label for="linear_spreed_at_empty_space">Linear Spreed at Empty Space:</label>
-            <input type="number" class="form-control" name="linear_spreed_at_empty_space" id="linear_spreed_at_empty_space">
+            <input type="text" class="form-control" name="linear_spreed_at_empty_space" id="linear_spreed_at_empty_space">
         </div>
 
         <button type="submit" class="btn btn-primary">Submit</button>

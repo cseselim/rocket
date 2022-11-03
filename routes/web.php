@@ -16,3 +16,4 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/',[\App\Http\Controllers\RocketController::class, 'create'])->name('create.rocket');
 Route::post('rocket-date-store',[\App\Http\Controllers\RocketController::class, 'store'])->name('rocket-date-store');
+Route::get('/rocket-lunch-list',[\App\Http\Controllers\RocketController::class, 'index'])->name('rocket.lunch.list');

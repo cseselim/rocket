@@ -30,6 +30,7 @@ class rocketRequest extends FormRequest
             'last_spreed' => 'nullable',
             'acceleration' => 'nullable',
             'linear_spreed_at_empty_space' => 'nullable',
+            'distance' => 'nullable'
         ];
     }
 }
